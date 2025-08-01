@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Form 2</title>
+</head>
+<body>
+      <section>
+            <p><b>Step 1 : </b> Your Details</p>
+            <label for="name">Name :</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="name" id="name" placeholder="enter your name">
+            <br><br>
+            <label for="email">Email :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" name="email" id="email" placeholder="enter your eamil here">
+            <br><br>
+            <label for="phone">Phone :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="tel" name="phone" id="phone" minlength="10" maxlength="12">
+      </section>
+
+      <section>
+            <p><b>Step 2 : </b> Delivery address</p>
+            <label for="address">Address</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <textarea name="address" id="address" rows="4" cols="20"></textarea><br><br>
+             <label for="pin">Pin code :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="pin" id="pin" minlength="6" maxlength="6"><br><br>
+            <label for="country">Country</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="country" id="country">
+      </section>
+
+      <section>
+            <p><b>Step 3 : </b> Card details</p>  
+            <p>Card type :</p>
+            <input type="radio" name="visa" id="visa">
+            <label for="visa">Visa</label>
+             <input type="radio" name="axis" id="axis">
+            <label for="visa">Axis</label>
+             <input type="radio" name="SBI" id="SBI">
+            <label for="SBI">SBI</label> <br><br>
+             <label for="c_number">Card number :</label>
+            <input type="number" name="c_number" id="c_number"><br><br>
+             <label for="code"> Security Code</label>
+            <input type="text" name="code" id="code"><br><br>
+            <label for="c_name">Name on card :</label>
+            <input type="text" name="c_name" id="c_name" placeholder="exact name on card ">
+      </section>
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <button>BUY IT</button>
+</body>
+</html>
